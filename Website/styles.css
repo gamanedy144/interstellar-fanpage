@@ -3,7 +3,10 @@
     padding: 0px;
     box-sizing: border-box;
 }
-
+::-webkit-scrollbar {
+    display: none;
+    
+  }
 body{
     font-family: 'Poppins', sans-serif;
 }
@@ -70,7 +73,7 @@ body{
     display: flex;
     width: 90%;
     margin: auto;
-    min-height: 85vh;
+    min-height: 89.5vh;
     align-items: center;
     justify-content: space-around;
     
@@ -78,7 +81,7 @@ body{
 .intro-text{
     width: 50%;
     text-align: center;
-    margin-left: 7vh;
+    margin-left: 3vw;
     margin-bottom: 6vh;
     
 }
@@ -93,7 +96,7 @@ body{
 }
 .video{
     height: 32vh;
-    width: 57vh;
+    width: 32vw;
     
     border: 5px solid rgb(200, 228, 247);
     border-radius: 10px;
@@ -101,9 +104,8 @@ body{
 }
 footer{
     position: absolute;
-    bottom:  0px;
     width:  100%;
-
+    margin-bottom: 0%;
     background-color: #fff;
     background: linear-gradient(90deg, rgba(255,255,255,0.5) 0%, rgba(161,161,161,0.2) 100%);
     background-color: rgba(205,205,205,0.5);
@@ -123,25 +125,28 @@ footer{
     background-image: url(images/background2.jpg);
     background-position: center center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     height: 100vh;
     
 }
 .plot-presentation, .actors-presentation, .director-presentation, .dyk-presentation{
     width: 100%;
-    display: flex;
-    height: 89.5vh;
+    
+    height: 80%;
     margin: auto;
+    margin-top: 3%;
     
 }
 .plot, .actors, .director, .dyk{
     width: 90%;
     height: 90%;
-    display: flex;
+    
     margin: auto;
     align-self: center;
     background-color: #fff;
     background: linear-gradient(90deg, rgba(255,255,255,0.5) 0%, rgba(161,161,161,0.2) 100%);
     background-color: rgba(205,205,205,0.5);
+    margin-bottom: 3%;
 }
 .plot-text h1{
     text-align: center;
@@ -151,4 +156,83 @@ footer{
 .plot-text p{
     padding: 1.5vh;
     font-size: 1.72vh;
+}
+.paragraph1, .paragraph2, .paragraph3, .paragraph4, .paragraph5{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    padding: 2vh;
+}
+.blight-image, .wave-image, .mann-image, .tesseract-image, .cooper-station-image{
+    width: 22vw;
+    height: auto;
+    border-radius: 1.2vh;
+}
+
+.actors-text h1{
+    text-align: center;
+    font-size: 4.5vh;
+    font-weight: 600;
+}
+.actors-text p{
+    padding: 1.5vh;
+}
+
+.actors-wrapper{
+    width: 95%;
+    height: 67.5vh;
+    align-items: center;
+    margin: auto;
+    margin-top: 6vh;
+}
+.actors-row{
+    display: flex;
+    margin: auto;
+    margin-top: 6vh;
+    justify-content: space-around;
+    
+}
+.actors-box{
+    
+}
+.actors-box p{
+    text-align: center;
+}
+.film-portrait {
+    width: 12vw;
+    height: 24vh;
+    object-fit: cover;
+    border-radius: 1.2vh;
+}
+
+.cooper-portrait{
+    
+}
+.murph-portrait {
+    object-position: 0 0;
+}
+.brand-portrait{
+
+}
+.romily-portrait{
+    object-position: 17% 0;
+
+}
+.doyle-portrait{
+    object-position: 35% 0;
+}
+.tars-portrait{
+    object-position: 0 0;
+}
+.mann-portrait {
+    object-position: 70% 0;
+}
+
+.professor-portrait{
+    object-position: 60% 0;
+}
+.actors-footer{
+    bottom: 0vh;
 }
