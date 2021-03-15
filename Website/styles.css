@@ -98,9 +98,12 @@ body{
     height: 32vh;
     width: 32vw;
     
-    border: 5px solid rgb(200, 228, 247);
+    /* border: 5px solid rgb(200, 228, 247); */
     border-radius: 10px;
     
+}
+.shadow-box{
+    box-shadow: 5px 5px 20px 5px #888;
 }
 footer{
     position: absolute;
@@ -129,7 +132,7 @@ footer{
     height: 100vh;
     
 }
-.plot-presentation, .actors-presentation, .director-presentation, .dyk-presentation{
+.plot-presentation, .actors-presentation, .bts-presentation, .dyk-presentation{
     width: 100%;
     
     height: 80%;
@@ -137,7 +140,7 @@ footer{
     margin-top: 3%;
     
 }
-.plot, .actors, .director, .dyk{
+.plot, .actors, .bts, .dyk{
     width: 90%;
     height: 90%;
     
@@ -157,7 +160,7 @@ footer{
     padding: 1.5vh;
     font-size: 1.72vh;
 }
-.paragraph1, .paragraph2, .paragraph3, .paragraph4, .paragraph5{
+.plot-paragraph1, .plot-paragraph2, .plot-paragraph3, .plot-paragraph4, .plot-paragraph5{
     width: 95%;
     margin: auto;
     display: flex;
@@ -195,7 +198,9 @@ footer{
     
 }
 .actors-box{
-    
+    /* background-color: #fff8de; */
+    background-color: #D8D1C1;
+    border-radius: 10px;
 }
 .actors-box p{
     text-align: center;
@@ -204,7 +209,7 @@ footer{
     width: 12vw;
     height: 24vh;
     object-fit: cover;
-    border-radius: 1.2vh;
+    border-radius: 10px;
 }
 
 .cooper-portrait{
@@ -235,4 +240,60 @@ footer{
 }
 .actors-footer{
     bottom: 0vh;
+}
+
+.bts-text{
+    width: 95%;
+    margin: auto;
+}
+.bts-text h1{
+    text-align: center;
+    font-size: 4.5vh;
+    font-weight: 600;
+}
+.bts-text p{
+    padding: 2vh;
+}
+
+
+
+.bts-images{
+    
+    width: 95%;
+    margin: auto;
+}
+.bts-images-row{
+    
+    padding-bottom: 1.5%;
+    padding-top: 1.5%;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+}
+.bts-images-row1{
+    
+}
+.bts-images-row2{
+    
+}
+.bts-images-row3{
+    
+}
+.bts-images-row4{
+    
+}
+.bts-image{
+    object-fit: cover;
+    border-radius: 10px;
+    height: 48vh;
+    width: auto;
+}
+.bts-image5, .bts-image6{
+    height: 48vh;
+    width: 39vw;
+}
+.bts-image7{
+    height: auto;
+    width: 95%;
 }
