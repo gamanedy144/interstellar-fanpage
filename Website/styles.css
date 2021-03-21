@@ -16,7 +16,7 @@ header{
     background-color: #fff;
     background: linear-gradient(90deg, rgba(255,255,255,0.5) 0%, rgba(161,161,161,0.2) 100%);
     background-color: rgba(205,205,205,0.5);
-    
+    backdrop-filter: blur(3px);
     top: 0px;
     width: 100%;
     height: 8vh;
@@ -112,7 +112,7 @@ footer{
     background-color: #fff;
     background: linear-gradient(90deg, rgba(255,255,255,0.5) 0%, rgba(161,161,161,0.2) 100%);
     background-color: rgba(205,205,205,0.5);
-
+    backdrop-filter: blur(3px);
     text-align: center;
 }
 .footer-text{
@@ -153,12 +153,12 @@ footer{
 }
 .plot-text h1{
     text-align: center;
-    font-size: 4.5vh;
+    font-size: 48px;
     font-weight: 600;
 }
 .plot-text p{
     padding: 1.5vh;
-    font-size: 1.72vh;
+    font-size: 18px;
 }
 .plot-paragraph1, .plot-paragraph2, .plot-paragraph3, .plot-paragraph4, .plot-paragraph5{
     width: 95%;
@@ -176,11 +176,12 @@ footer{
 
 .actors-text h1{
     text-align: center;
-    font-size: 4.5vh;
+    font-size: 48px;
     font-weight: 600;
 }
 .actors-text p{
     padding: 1.5vh;
+    font-size: 18px;
 }
 
 .actors-wrapper{
@@ -199,7 +200,9 @@ footer{
 }
 .actors-box{
     /* background-color: #fff8de; */
-    background-color: #D8D1C1;
+    /* background-color: #D8D1C1; */
+    background-color: rgba(242, 232, 206,0.45);
+    backdrop-filter: blur(5px);
     border-radius: 10px;
 }
 .actors-box p{
@@ -212,15 +215,10 @@ footer{
     border-radius: 10px;
 }
 
-.cooper-portrait{
-    
-}
 .murph-portrait {
     object-position: 0 0;
 }
-.brand-portrait{
 
-}
 .romily-portrait{
     object-position: 17% 0;
 
@@ -248,14 +246,13 @@ footer{
 }
 .bts-text h1{
     text-align: center;
-    font-size: 4.5vh;
+    font-size: 48px;
     font-weight: 600;
 }
 .bts-text p{
     padding: 2vh;
+    font-size: 18px;
 }
-
-
 
 .bts-images{
     
@@ -271,18 +268,6 @@ footer{
     justify-content: space-around;
     align-items: center;
 }
-.bts-images-row1{
-    
-}
-.bts-images-row2{
-    
-}
-.bts-images-row3{
-    
-}
-.bts-images-row4{
-    
-}
 .bts-image{
     object-fit: cover;
     border-radius: 10px;
@@ -296,4 +281,83 @@ footer{
 .bts-image7{
     height: auto;
     width: 95%;
+}
+.dyk-text{
+    width: 95%;
+    margin: auto;
+    padding-bottom: 3%;
+}
+.dyk-text h1{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+}
+.dyk-text p{
+    line-height: 30px;
+}
+.dyk-card-wrapper{
+    margin-top: 2vh;
+}
+.dyk-card{
+    padding: 14px 16px;
+    background-color: rgba(242, 232, 206,0.45);
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    margin-top: 25px;
+    font-size: 18px;
+}
+.dyk-card-row1, .dyk-card-row2, .dyk-card-row3{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2vh;
+}
+.fact1{
+    width: 35%;
+    margin: auto;
+}
+.fact2{
+    width: 25%;
+    margin: auto;
+    padding: 3vh;
+}
+.fact3{
+    
+    width: 30%;
+    margin: 20px;
+    padding: 3vh;
+}
+.fact4{
+    width: 45%;
+    margin: auto;
+}
+.dyk iframe{
+    width: 40vw;
+    height: 40vh;
+    margin: auto;
+}
+.fact5{
+    width: 35%;
+    margin: auto;
+}
+.fact6{
+    width: 20%;
+    margin: auto;
+    padding: 1.5vh;
+}
+.fact7{
+    width: 15%;
+    margin: auto;
+    padding: 1.5vh;
+}
+.fact8{
+    width: 15%;
+    margin: auto;
+    padding: 1.5vh;
+}
+.current-page{
+    color: white;
+    background-color: rgba(31, 63, 78, 1);
+    padding: 10px 10px;
+    font-weight: 550;
+    border-radius: 10px;
 }
